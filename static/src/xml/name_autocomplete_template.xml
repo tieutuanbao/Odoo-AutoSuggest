@@ -1,9 +1,12 @@
 <t t-name="bits_electronics.NameAutocomplete">
-    <textarea
-        t-ref="inputRef"
-        t-att-value="props.value"
-        t-on-input="onInput"
-        class="o_input o_field_translate"
-        rows="3"
-    />
+    <div t-ref="root">
+        <input
+            t-ref="input"
+            t-model="props.value"
+            t-on-input="onInput"
+            class="o_input o_field_translate"
+            placeholder="e.g. Cheese Burger"
+            id="name_0"
+        />
+    </div>
 </t>

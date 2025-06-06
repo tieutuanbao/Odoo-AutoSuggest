@@ -11,8 +11,8 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'bits_electronics/static/src/js/name_autocomplete.js',
-            'bits_electronics/static/src/xml/name_autocomplete_template.xml',
+            'bits_autosuggest/static/src/js/name_autocomplete.js',
+            'bits_autosuggest/static/src/xml/name_autocomplete_template.xml',
         ],
     },
     'installable': True,
