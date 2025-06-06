@@ -1,0 +1,9 @@
+<t t-name="bits_electronics.NameAutocomplete">
+    <textarea
+        t-ref="inputRef"
+        t-att-value="props.value"
+        t-on-input="onInput"
+        class="o_input o_field_translate"
+        rows="3"
+    />
+</t>
